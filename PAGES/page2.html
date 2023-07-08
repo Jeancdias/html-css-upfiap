@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Success Wallet</title>
+
+    <!-- Linkando com o CSS-->
+    <link rel="stylesheet" href="../CSS/page2.css">
+
+    <!-- Linkando Google Fontes -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+   
+    <!-- Icone do site -->
+    <link rel="shortcut icon" href="../IMAGES/swlogo.ico" type="image/x-icon">
+
+    <!-- Chamada Boostrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+
+</head>
+   
+<body>
+
+    <header class="cabecalho">    
+              <nav class="navbar fixed-top bg-body-tertiary">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="index.html"><img src="../IMAGES/logotiposw.png" alt="Succes Wallet" width="80" height="70" class="d-inline-block align-text-top">
+                    <h2>Succes Wallet</h2>
+                  </a>
+                </div>
+                </nav>               
+    </header>
+
+    <div class="container">
+
+        <!-- Imagem e título -->
+        <div class="box">
+            <h2>Crie sua conta</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam vitae necessitatibus, inventore blanditiis animi, rem maiores autem ea ab maxime dolores libero aliquid quidem expedita saepe iste deserunt! Ipsam, fuga!</p>
+            <img src="../IMAGES/ambienteusuario.svg" alt="Cadastro">
+        </div>
+
+        <!-- Formulário -->
+        <div class="box">
+
+            <h2>Preencha seus dados</h2>
+
+            <form id="dados" name="dados" method="post" action="formulario">
+
+                
+                    <div class="box-form-item">
+                        <label for="nome">Nome</label>
+                        <i class="fa-solid fa-user-tag icon"></i>
+                        <input type="text" id="nome" name="nome" placeholder="Ex: João" required>
+                    </div>
+                    <div class="box-form-item">
+                        <label for="sobrenome">Sobrenome</label>
+                        <input type="text" id="sobrenome" name="sobrenome" placeholder="Ex: Alves" required>
+                    </div>
+                    <div class="box-form-item">
+                        <label for="usuario">Usuário</label>
+                        <input type="text" id="usuario" name="usuario" placeholder="Ex: Alves" required>
+                    </div>
+                    <div class="box-form-item">
+                        <label for="senha">Senha</label>
+                        <input type="password" id="senha" name="senha" placeholder="Ex: 123456!@#$%" required>
+                    </div>
+                    <div class="box-form-item">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" placeholder="Ex: usuario.email@email.com" required>
+                    </div>
+                    <div class="box-form-item">
+                        <label for="data">Data de nascimento</label>
+                        <input type="date" id="data" name="data" required>
+                    </div>
+                    <div class="box-form-item">
+                        <label for="celular">Celular</label>
+                        <input type="tel" id="celular" name="celular" placeholder="(11) 9****-****" required>
+                    </div>
+
+
+
+                    <div class="box-form-item">
+                        <label>Tipo de Conta</label>
+                        <div class="box-form-radio">
+                            <div class="radio">
+                                <label for="conta1">Tipo 1</label>
+                                <input type="radio" id="conta1" name="conta">
+                            </div>
+
+                            <div class="radio">
+                                <label for="conta2">Tipo 2</label>
+                                <input type="radio" id="conta2" name="conta">
+                            </div>
+
+                            <div class="radio">
+                                <label for="conta3">Tipo 3</label>
+                                <input type="radio" id="conta3" name="conta">
+                            </div>   
+                        </div>
+                    </div>
+
+                    <div class="box-form-item">
+                        <label for="area" class="select">Area de algo</label>
+                        <select name="area" id="area">
+                            <option value="0" disabled selected>Sekecione uma opção</option>
+                            <option value="1">Area 01</option>
+                            <option value="2">Area 02</option>
+                            <option value="3">Area 03</option>
+                            <option value="4">Area 04</option>
+                        </select>
+                    </div>
+
+                    <div class="box-form-button">
+                        <button class="btn btn-outline-success me-2" type="submit">Criar conta</button>
+                    </div>
+
+            </form>
+
+        </div>
+
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+
+</body>
+</html>
+
+    
+

@@ -1,0 +1,126 @@
+@charset "UTF-8";
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+
+img{
+    max-width: 100%; 
+}
+
+/* nav{
+    height: 1vh;
+    position: absolute;
+} */
+
+main{
+    min-width: 300px;
+    max-width: 1920px;
+}
+
+body    {
+    font-family: 'Raleway', sans-serif;
+}
+
+.cabecalho a{
+    position: relative;
+    left: 1%;
+
+}
+.cabecalho h2 {
+    position: relative;
+    left: 18%;
+    margin: 0;
+    top: -34px;
+    color: #238662;
+    font-size: 2em;
+    word-spacing: 0,5em;
+    letter-spacing: 1em;
+    line-height: 0%;
+}
+
+.cabecalho button{
+    position: relative;
+    float: right;
+    /* text-align: right; */
+    /* margin: 10%; */
+    left: 72em;
+    margin: -14%;
+    height: 3em;
+    width: 30em;
+}
+
+/* .titulo {
+    color: #238662;
+    text-align: left;
+    font-size: 20px;
+    word-spacing: 10px;
+    letter-spacing: 20px;
+    width: 35%;
+    height: 50%;
+    margin: -0px 20px 15px 150px;
+    /* background-color: bisque; */
+
+
+/* Ajuste de responsividade */
+@media(max-width: 1000px){
+    .capa label{
+        /* background-color: lightseagreen; */
+        color: white;
+        font-size: 4em;
+        font-weight: 400;
+        }
+    }
+    /* .titulo h1{
+        font-size: 6vmin;
+    } */
+
+.capa label{
+    position: relative;
+    font-size: 4em;
+    font-weight: 600;
+    color: white;
+    left: 15%;
+    top: -240px;
+    /* background-color: rgb(35,134,98); */
+}
+
+.container {
+    color: rgb(255, 255, 255);
+    background-color:   rgb(35, 134, 98);
+    height: 30em;
+    /* min-height: 100%; */
+    position: relative;
+    margin: 2%;
+    margin-top: -12.5%;
+    left: 15.3%;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+
+    /* margin-right: 1px; */
+    /* padding: 10px; */
+
+    /* border: 5px solid #ff0000; */
+    
+    /* top: -240px; */
+    /* right: -301px; */
+    /* display: inline-block; */
+   
+}
+
+    /* font-weight: 100; */
+
+    /* display: inline-block; */
+
+.capa img{
+    /* background-color: aquamarine; */
+    width: 100%;
+    height: 100%;
+    /* display: block; */
+    margin-top: 5.2%;
+}
+main{
+    width: 100%;
+}
